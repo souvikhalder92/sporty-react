@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [players,setPlayers] = useState([]);
@@ -26,6 +27,7 @@ function App() {
     <div className="App">
       <Nav></Nav>
       <Home></Home>
+      <Footer></Footer>
     </div>
   );
 }
